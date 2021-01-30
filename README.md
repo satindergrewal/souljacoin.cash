@@ -130,6 +130,7 @@ TODO
 
 ## Mining Pools
 [https://mining.spaceworks.co](https://mining.spaceworks.co)
+[http://mining.daemoncoins.com/](http://mining.daemoncoins.com/)
 
 ## Trading Exchanges
 TODO
