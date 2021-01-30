@@ -3,7 +3,7 @@
 At the end of January, 2021 [Soulja Boy (Drako)](https://twitter.com/souljaboy) tweeted to "make SouljaCoin a real thing without getting into any legal trouble with SEC etc".
 
 ![](https://i.imgur.com/zIGi4q9.png)
-https://twitter.com/souljaboy/status/1355178088275959813?s=20
+[https://twitter.com/souljaboy/status/1355178088275959813?s=20](https://twitter.com/souljaboy/status/1355178088275959813?s=20)
 
 So, to make it happen, here is a community built cryptocurrency coin made for Soulja Boy fans. Following are the details:
 
