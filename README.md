@@ -46,11 +46,23 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 
 
 # Get wallet information
-./komodo-cli -ac_name=SOULJA getwaletinfo
+./komodo-cli -ac_name=SOULJA getwalletinfo
 
 
 # Get mining information
 ./komodo-cli -ac_name=SOULJA getmininginfo
+
+
+# Generate a new Public address
+./komodo-cli -ac_name=SOULJA getnewaddress
+
+
+# To backup the private key of a public address
+./komodo-cli -ac_name=SOULJA dumpprivkey
+
+
+# To import private key of public address
+./komodo-cli -ac_name=SOULJA importprivkey "PRIVATE_KEY_STRING_FROM_DUMPPRIVKEY_COMMAND"
 
 
 # Generate a new Z/Private address
