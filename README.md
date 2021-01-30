@@ -1,37 +1,94 @@
-## Welcome to GitHub Pages
+## Welcome to SauljaCoin
 
-You can use the [editor on GitHub](https://github.com/satindergrewal/souljacoin.cash/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+At the end of January, 2021 Soulja Boy (Drako) tweeted to "make SouljaCoin a real thing without getting into any legal trouble with SEC etc".
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![](https://i.imgur.com/zIGi4q9.png)
 
-### Markdown
+So, to make it happen, here is a community built cryptocurrency coin made for Soulja Boy fans. Following are the details:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Built using Komodo's Antara Smartchain technology
+- Independent blockchain
+- Block time aprox 60 seconds.
+- Block halving every 388885 blocks.
+   - aprox every 270.0590278 days
+   - aprox every 8.872575862 months
+- Block reward of 1 satoshi will reach in about 25.89607116 years.
+- Total supply of around 200 million. Exactly to be 199,209,119.99420500 by year 2046+
+- 60% blocks are mined with Proof of Work (Equihash)
+- 40% blocks are mined with Proof of Stake
+- Premine supply of 100,000
+- Founders Reward is 1%, mined every 10080 blocks, which is approx of 7 days
 
-```markdown
-Syntax highlighted code block
+# Getting Started for command line
+Download pre-compiled komodo binaries for your operating system from [here](https://github.com/KomodoPlatform/komodo/releases/tag/0.6.1).
+Extract the binaries, and execute "fetch-params" script from command line terminal to fetch the required chain params.
 
-# Header 1
-## Header 2
-### Header 3
+# Connect with SOULJA Blockchain
+Use the following command to connect to SOULJA chain's network:
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+./komodod -ac_name=SOULJA -ac_supply=100000 -ac_reward=25600000000 -ac_perc=100000000 -ac_founders=10080 -ac_pubkey=02fec5cebe47bd5f8eb2ac6f3dff76a82a1292c761d4ccfda578da89f74360c5ee -ac_staked=40 -addnode=51.222.150.53 -daemon
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+# Mine SOULJA blockchain
+Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is the value of how many CPU threads you have on your system.
 
-### Jekyll Themes
+```bash
+./komodod -ac_name=SOULJA -ac_supply=100000 -ac_reward=25600000000 -ac_perc=100000000 -ac_founders=10080 -ac_pubkey=02fec5cebe47bd5f8eb2ac6f3dff76a82a1292c761d4ccfda578da89f74360c5ee -ac_staked=40 -addnode=51.222.150.53 -daemon -gen -genproclimit=4
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/satindergrewal/souljacoin.cash/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Wallet comands
 
-### Support or Contact
+```bash
+# Get wallet and blockchain info
+./komodo-cli -ac_name=SOULJA getinfo
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+# Get wallet information
+./komodo-cli -ac_name=SOULJA getwaletinfo
+
+
+# Get mining information
+./komodo-cli -ac_name=SOULJA getmininginfo
+
+
+# Generate a new Z/Private address
+./komodo-cli -ac_name=SOULJA z_getnewaddress
+
+
+# To backup the private key of a z address
+./komodo-cli -ac_name=SOULJA z_exportkey "zaddr"
+
+
+# To send mined coins to a z address
+./komodo-cli -ac_name=SOULJA "fromaddress" "tozaddress" ( fee ) ( limit )
+
+# Example 1:
+./komodo-cli -ac_name=SOULJA z_shieldcoinbase "FROM_YOUR_ADDRESS" "TO_Z_ADDRESS"
+
+# Example 2:
+./komodo-cli -ac_name=SOULJA z_shieldcoinbase "*" "TO_Z_ADDRESS"
+
+
+# To send a transaction from your z address to another z address
+./komodo-cli -ac_name=SOULJA z_sendmany "fromaddress" [{"address":... ,"amount":...},...] ( minconf ) ( fee )
+
+# Example:
+komodo-cli -ac_name=SOULJA z_sendmany "FROM_Z_ADDRESS" '[{"address": "TO_Z_ADDRESS" ,"amount": 5.9999}]'
+```
+
+## Explorer
+TODO
+
+## Wallets
+TODO
+
+## Connect with SouljaCoin community
+TODO
+
+## Mining Pools
+TODO
+
+## Trading Exchanges
+TODO
+
