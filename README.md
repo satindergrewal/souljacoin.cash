@@ -86,7 +86,7 @@ The detailed halving estimation sheet can be accessed from here:
 TODO
 
 ## Explorer
-TODO
+[http://explorer.souljacoin.cash/](http://explorer.souljacoin.cash/)
 
 ## Wallets
 TODO
