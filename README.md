@@ -23,12 +23,12 @@ So, to make it happen, here is a community built cryptocurrency coin made for So
 # Features
 
 - Coming from Komodo Platform, it is capable of doing all DeFi things one can possible do using Antara Smartchain's Crypto-Conditions technology.
-- Tokens Exchange, which can be used to create and trade NFTs. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html)
-- Dilithium type transactions can make Quantum Resistant transactions [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/dilithium.html)
-- Decentralised Faucet, to give away free SOULJA coins to people who wants to try things out on this chain. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html)
-- Heir, can help manage funds in a way that it can be passed on to heir for inheridence. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/heir.html)
-- Oracles, to link real world data to blockchain based decentralised applications. Oracles are what powers DeFi. It is very powerful technology. And it works already available to Antara Smartchains. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/oracles.html)
-- Pegs, to make decentralised stablecoins or making pegged cryptocurrencies to other kind of assets in financial world. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/pegs.html)
+- **Tokens Exchange**, which can be used to create and trade NFTs. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html)
+- **Dilithium** type transactions can make Quantum Resistant transactions [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/dilithium.html)
+- **Decentralised Faucet**, to give away free SOULJA coins to people who wants to try things out on this chain. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/faucet.html)
+- **Heir**, can help manage funds in a way that it can be passed on to heir for inheridence. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/heir.html)
+- **Oracles**, to link real world data to blockchain based decentralised applications. Oracles are what powers DeFi. It is very powerful technology. And it works already available to Antara Smartchains. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/oracles.html)
+- **Pegs**, to make decentralised stablecoins or making pegged cryptocurrencies to other kind of assets in financial world. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/pegs.html)
 
 
 # Getting Started for command line
