@@ -80,7 +80,7 @@ komodo-cli -ac_name=SOULJA z_sendmany "FROM_Z_ADDRESS" '[{"address": "TO_Z_ADDRE
 
 ## SouljaCoin Halving detaiils
 The detailed halving estimation sheet can be accessed from here:
-https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ
+[https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ](https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ)
 
 ## Help/Support Guides
 TODO
