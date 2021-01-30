@@ -120,6 +120,7 @@ TODO
 
 ## Explorer
 [http://explorer.souljacoin.cash/](http://explorer.souljacoin.cash/)
+[http://soulja.explorer.dexstats.info/](http://soulja.explorer.dexstats.info/)
 
 ## Wallets
 TODO
@@ -128,7 +129,7 @@ TODO
 TODO
 
 ## Mining Pools
-TODO
+[https://mining.spaceworks.co](https://mining.spaceworks.co)
 
 ## Trading Exchanges
 TODO
