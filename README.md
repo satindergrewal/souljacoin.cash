@@ -84,6 +84,16 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 ./komodo-cli -ac_name=SOULJA z_exportkey "zaddr"
 
 
+# To mine with CPU and enable staking
+./komodo-cli -ac_name=SOULJA z_exportkey setgenerate true 0
+
+# To only stake and not CPU mining
+./komodo-cli -ac_name=SOULJA z_exportkey setgenerate false 0
+
+# To disable staking and disable CPU mining
+./komodo-cli -ac_name=SOULJA z_exportkey setgenerate false 1
+
+
 # To send mined coins to a z address
 ./komodo-cli -ac_name=SOULJA "fromaddress" "tozaddress" ( fee ) ( limit )
 
