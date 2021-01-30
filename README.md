@@ -1,4 +1,4 @@
-## Welcome to SauljaCoin
+## Welcome to SouljaCoin
 
 At the end of January, 2021 [Soulja Boy (Drako)](https://twitter.com/souljaboy) tweeted to "make SouljaCoin a real thing without getting into any legal trouble with SEC etc".
 
