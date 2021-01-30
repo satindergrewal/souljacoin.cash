@@ -78,6 +78,9 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 komodo-cli -ac_name=SOULJA z_sendmany "FROM_Z_ADDRESS" '[{"address": "TO_Z_ADDRESS" ,"amount": 5.9999}]'
 ```
 
+## Help/Support Guides
+TODO
+
 ## Explorer
 TODO
 
