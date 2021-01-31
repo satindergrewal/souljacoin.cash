@@ -2,7 +2,7 @@
 
 At the end of January, 2021 [Soulja Boy (Drako)](https://twitter.com/souljaboy) tweeted to "make SouljaCoin a real thing without getting into any legal trouble with SEC etc".
 
-![](https://i.imgur.com/zIGi4q9.png)
+![SouljaBoy SouljaCoin tweet](https://i.imgur.com/zIGi4q9.png)
 [https://twitter.com/souljaboy/status/1355178088275959813?s=20](https://twitter.com/souljaboy/status/1355178088275959813?s=20)
 
 So, to make it happen, here is a community built cryptocurrency coin made for Soulja Boy fans. Following are the details:
@@ -20,7 +20,7 @@ So, to make it happen, here is a community built cryptocurrency coin made for So
 - Premine supply of 100,000
 - Founders Reward is 1%, mined every 10080 blocks, which is approx of 7 days
 
-# Features
+## Features
 
 - Coming from Komodo Platform, it is capable of doing all DeFi things one can possible do using Antara Smartchain's Crypto-Conditions technology.
 - **Tokens Exchange**, which can be used to create and trade NFTs. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/assets.html)
@@ -31,25 +31,49 @@ So, to make it happen, here is a community built cryptocurrency coin made for So
 - **Pegs**, to make decentralised stablecoins or making pegged cryptocurrencies to other kind of assets in financial world. [Link](https://developers.komodoplatform.com/basic-docs/antara/antara-api/pegs.html)
 
 
-# Getting Started for command line
+## Resources
+
+#### SouljaCoin Halving detaiils
+The detailed halving estimation sheet can be accessed from here:
+[https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ](https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ)
+
+#### Explorer
+- [http://explorer.souljacoin.cash/](http://explorer.souljacoin.cash/)
+- [http://soulja.explorer.dexstats.info/](http://soulja.explorer.dexstats.info/)
+
+#### Wallets
+- [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+- [Command Line](#Using-Command-Line)
+
+#### Connect with SouljaCoin community
+- [#soulja channel on Komodo Discord](https://discord.gg/JcNqhUxAxh)
+
+#### Mining Pools
+- [https://mining.spaceworks.co](https://mining.spaceworks.co)
+- [http://mining.daemoncoins.com/](http://mining.daemoncoins.com/)
+
+#### Exchanges
+- [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+
+#### Using command line
 Download pre-compiled komodo binaries for your operating system from [here](https://github.com/KomodoPlatform/komodo/releases/tag/0.6.1).
 Extract the binaries, and execute "fetch-params" script from command line terminal to fetch the required chain params.
 
-# Connect with SOULJA Blockchain
+#### Launch SOULJA Blockchain
 Use the following command to connect to SOULJA chain's network:
 
 ```bash
 ./komodod -ac_name=SOULJA -ac_supply=100000 -ac_reward=25600000000 -ac_perc=100000000 -ac_founders=10080 -ac_halving=388885 -ac_pubkey=02fec5cebe47bd5f8eb2ac6f3dff76a82a1292c761d4ccfda578da89f74360c5ee -ac_staked=40 -addnode=51.222.150.53 -daemon
 ```
 
-# Mine SOULJA blockchain
+#### Mine SOULJA blockchain
 Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is the value of how many CPU threads you have on your system.
 
 ```bash
 ./komodod -ac_name=SOULJA -ac_supply=100000 -ac_reward=25600000000 -ac_perc=100000000 -ac_founders=10080 -ac_halving=388885 -ac_pubkey=02fec5cebe47bd5f8eb2ac6f3dff76a82a1292c761d4ccfda578da89f74360c5ee -ac_staked=40 -addnode=51.222.150.53 -daemon -gen -genproclimit=4
 ```
 
-# Wallet comands
+#### Wallet comands
 
 ```bash
 # Get wallet and blockchain info
@@ -111,29 +135,5 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 komodo-cli -ac_name=SOULJA z_sendmany "FROM_Z_ADDRESS" '[{"address": "TO_Z_ADDRESS" ,"amount": 5.9999}]'
 ```
 
-## SouljaCoin Halving detaiils
-The detailed halving estimation sheet can be accessed from here:
-[https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ](https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ)
-
-## Help/Support Guides
+#### Help/Support Guides
 TODO
-
-## Explorer
-[http://explorer.souljacoin.cash/](http://explorer.souljacoin.cash/)
-
-[http://soulja.explorer.dexstats.info/](http://soulja.explorer.dexstats.info/)
-
-## Wallets
-TODO
-
-## Connect with SouljaCoin community
-TODO
-
-## Mining Pools
-[https://mining.spaceworks.co](https://mining.spaceworks.co)
-
-[http://mining.daemoncoins.com/](http://mining.daemoncoins.com/)
-
-## Trading Exchanges
-TODO
-
