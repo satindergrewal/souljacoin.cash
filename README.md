@@ -37,6 +37,9 @@ So, to make it happen, here is a community built cryptocurrency coin made for So
 For best staking results, use this guide for staking. Just make sure to use SOULJA instead of example coin name in the guide:
 - [https://github.com/kmdlabs/pos64staker](https://github.com/kmdlabs/pos64staker)
 
+SpaceCoin guide also is relevant to SOULJA staking. Follow it from here:
+- [https://github.com/SpaceWorksCo/guides/blob/master/Setup-Staking-Node.md](https://github.com/SpaceWorksCo/guides/blob/master/Setup-Staking-Node.md)
+
 #### SouljaCoin Halving detaiils
 The detailed halving estimation sheet can be accessed from here:
 [https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ](https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ)
