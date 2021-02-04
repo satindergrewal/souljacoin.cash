@@ -33,6 +33,10 @@ So, to make it happen, here is a community built cryptocurrency coin made for So
 
 ## Resources
 
+#### Help/Support Guides
+For best staking results, use this guide for staking. Just make sure to use SOULJA instead of example coin name in the guide:
+- [https://github.com/kmdlabs/pos64staker](https://github.com/kmdlabs/pos64staker)
+
 #### SouljaCoin Halving detaiils
 The detailed halving estimation sheet can be accessed from here:
 [https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ](https://docs.google.com/spreadsheets/d/1ItLK8xtTjzSyYRgonMKvT1RZQ4lsl1ebnRIFcydVVsQ)
@@ -134,6 +138,3 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 # Example:
 komodo-cli -ac_name=SOULJA z_sendmany "FROM_Z_ADDRESS" '[{"address": "TO_Z_ADDRESS" ,"amount": 5.9999}]'
 ```
-
-#### Help/Support Guides
-TODO
