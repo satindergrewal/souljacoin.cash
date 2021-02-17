@@ -70,7 +70,7 @@ Extract the binaries, and execute "fetch-params" script from command line termin
 Use the following command to connect to SOULJA chain's network:
 
 ```bash
-./komodod -ac_name=SOULJA -ac_supply=100000 -ac_reward=25600000000 -ac_perc=100000000 -ac_founders=10080 -ac_halving=388885 -ac_pubkey=02fec5cebe47bd5f8eb2ac6f3dff76a82a1292c761d4ccfda578da89f74360c5ee -ac_staked=40 -addnode=51.222.150.53 -daemon
+./komodod -ac_name=SOULJA -ac_supply=100000 -ac_reward=25600000000 -ac_perc=100000000 -ac_founders=10080 -ac_halving=388885 -ac_pubkey=02fec5cebe47bd5f8eb2ac6f3dff76a82a1292c761d4ccfda578da89f74360c5ee -ac_staked=40 -addnode=49.12.127.114 -addnode=49.12.127.113 -addnode=49.12.127.111 -addnode=51.91.61.195 -addnode=88.99.150.139 -addnode=84.38.189.208 -addnode=46.255.254.134 -addnode=51.83.186.192 -addnode=88.99.212.81 -addnode=159.69.201.122 -addnode=116.203.56.98 -addnode=46.255.254.133 -addnode=94.130.38.173 -addnode=178.63.47.105 -addnode=147.135.105.85 -addnode=95.217.44.58 -addnode=144.76.148.155 -addnode=143.244.47.112 -addnode=141.0.149.92 -addnode=77.244.75.34 -addnode=144.76.148.154 -addnode=152.89.104.58 -addnode=219.138.73.109 -addnode=178.32.41.81 -addnode=103.231.91.233 -addnode=141.0.149.92 -daemon
 ```
 
 #### Mine SOULJA blockchain
