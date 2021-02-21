@@ -156,9 +156,9 @@ Some reference screenshots about this incident as a notification to SOULJA commu
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/satindergrewal/souljacoin.cash/main/images/founders_rewards_99_perc_burned.png" width="500">
+	<img src="https://raw.githubusercontent.com/satindergrewal/souljacoin.cash/main/images/founders_rewards_99_perc_burned.png" width="100%">
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/satindergrewal/souljacoin.cash/main/images/warning_about_founders_reward_screw_up.png" width="500">
+	<img src="https://raw.githubusercontent.com/satindergrewal/souljacoin.cash/main/images/warning_about_founders_reward_screw_up.png" width="100%">
 </p>
