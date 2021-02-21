@@ -18,7 +18,8 @@ So, to make it happen, here is a community built cryptocurrency coin made for So
 - 60% blocks are mined with Proof of Work (Equihash)
 - 40% blocks are mined with Proof of Stake
 - Premine supply of 100,000
-- Founders Reward is 1%, mined every 10080 blocks, which is approx of 7 days
+- Founders Reward is ~~1%~~ 100%, mined every 10080 blocks, which is approx of 7 days
+- Due to miscalculations 99% Founders Rewards are burned to keep Founders Rewards 1% only. Refer to the [NOTICE](#notice) section to know more.
 
 ## Features
 
@@ -141,3 +142,23 @@ Use "-gen" and "-genproclimit" to enable mining. Value for "-genproclimit" is th
 # Example:
 komodo-cli -ac_name=SOULJA z_sendmany "FROM_Z_ADDRESS" '[{"address": "TO_Z_ADDRESS" ,"amount": 5.9999}]'
 ```
+
+## Notice
+
+Soon after first Founders Rewards block was mined, it was identified the Founders Rewards calculation was wrong. It was supposed to 1%, but with extra zeros added to the Founders Rewards, it is instead 100%. Means every 10080 blocks, the same amount of the supply equals to the (per block mining reward * 10080) is mined to the Founders Rewards address [RSr5pG3SMVweUxoATEoBrKY9W7KPFAiSZb](https://explorer.souljacoin.cash/address/RSr5pG3SMVweUxoATEoBrKY9W7KPFAiSZb).
+
+As a solution, to keep the Founders Rewards 1%, 99% funds from Founders Rewards are sent to the burn address: [RD6GgnrMpPaTSMn8vai6yiGA7mN4QGPVMY](https://explorer.souljacoin.cash/address/RD6GgnrMpPaTSMn8vai6yiGA7mN4QGPVMY)
+
+Some reference screenshots about this incident as a notification to SOULJA community in discord:
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/satindergrewal/souljacoin.cash/main/images/founders_rewards_calc_screw_up.png" width="500">
+</p>
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/satindergrewal/souljacoin.cash/main/images/founders_rewards_99_perc_burned.png" width="500">
+</p>
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/satindergrewal/souljacoin.cash/main/images/warning_about_founders_reward_screw_up.png" width="500">
+</p>
