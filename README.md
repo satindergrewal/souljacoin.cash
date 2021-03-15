@@ -59,9 +59,11 @@ The detailed halving estimation sheet can be accessed from here:
 #### Mining Pools
 - [https://mining.spaceworks.co](https://mining.spaceworks.co)
 - [http://mining.daemoncoins.com/](http://mining.daemoncoins.com/)
+- [https://unimining.net/](https://unimining.net)
 
 #### Exchanges
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
+- [CexZ](https://www.cexz.ca/trading/souljabtc)
 
 #### Using command line
 Download pre-compiled komodo binaries for your operating system from [here](https://github.com/KomodoPlatform/komodo/releases/tag/0.6.1).
