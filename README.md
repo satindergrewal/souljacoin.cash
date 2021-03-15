@@ -60,6 +60,7 @@ The detailed halving estimation sheet can be accessed from here:
 - [https://mining.spaceworks.co](https://mining.spaceworks.co)
 - [http://mining.daemoncoins.com/](http://mining.daemoncoins.com/)
 - [https://unimining.net/](https://unimining.net)
+- [http://chickenpool.com/](http://chickenpool.com/)
 
 #### Exchanges
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
