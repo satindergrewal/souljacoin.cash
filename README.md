@@ -48,6 +48,7 @@ The detailed halving estimation sheet can be accessed from here:
 #### Explorer
 - [http://explorer.souljacoin.cash/](http://explorer.souljacoin.cash/)
 - [http://soulja.explorer.dexstats.info/](http://soulja.explorer.dexstats.info/)
+- [http://soulja.kmdtools.xyz/](https://soulja.kmdtools.xyz/)
 
 #### Wallets
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
