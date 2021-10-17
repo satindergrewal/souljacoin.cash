@@ -65,7 +65,6 @@ The detailed halving estimation sheet can be accessed from here:
 
 #### Exchanges
 - [AtomicDEX-Desktop](https://github.com/KomodoPlatform/atomicDEX-Desktop/releases)
-- [CexZ](https://www.cexz.ca/trading/souljabtc)
 
 #### Using command line
 Download pre-compiled komodo binaries for your operating system from [here](https://github.com/KomodoPlatform/komodo/releases/tag/0.6.1).
